@@ -5,8 +5,8 @@
 from os import environ 
 
 class Config:
-    API_ID = int(environ.get("API_ID", "22216834"))
-    API_HASH = environ.get("API_HASH", "c50044544e93eb670fbe5ad8d952fe7f")
+    API_ID = int(environ.get("API_ID", "28473509"))
+    API_HASH = environ.get("API_HASH", "f56218a21931d5f4ddcf0f0354256816")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "Anushka") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://jackey172363:KeAhgj2viyWoHrxn@cluster0.s7ydqcf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
