@@ -81,7 +81,7 @@ class CLIENT:
 
   async def add_session(self, bot, message):
      user_id = int(message.from_user.id)
-     text = "<b>⚠️ DISCLAIMER ⚠️</b>\n\n<code>you can use your session for forward message from private chat to another chat.\nPlease add your pyrogram session with your own risk. Their is a chance to ban your account. My developer is not responsible if your account may get banned.</code>"
+     text = "<b>⚠️ DISCLAIMER ⚠️</b>\n\n<code>आप अपने सत्र का उपयोग निजी चैट से दूसरे में संदेश अग्रेषित करने के लिए कर सकते हैं.\nPlease अपने पाइरोग्राम सत्र को अपने जोखिम पर जोड़ें। आपके खाते पर प्रतिबंध लगने की संभावना है। अगर आपका खाता प्रतिबंधित होता है, तो मेरे डेवलपर की कोई ज़िम्मेदारी नहीं होगी.</code>"
      await bot.send_message(user_id, text=text)
      phone_number_msg = await bot.ask(chat_id=user_id, text="<b>Please send your phone number which includes country code</b>\n<b>Example:</b> <code>+13124562345</code>")
      if phone_number_msg.text=='/cancel':
