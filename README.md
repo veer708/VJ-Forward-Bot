@@ -1,10 +1,10 @@
-# VJ Forward Bot
+
 
 <b>Auto Restart All User Forwarding After Bot Restarted.</b>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Forward+Bot+!)
+![Typing SVG])
 
-## How To Deploy [Video Tutorial](https://youtu.be/A-iIh_5WAlk)
+
 
 ## Features
 
@@ -40,8 +40,5 @@ broadcast - broadcast a message to all your users (owner only)
 * `API_HASH` API Hash from my.telegram.org
 * `BOT_TOKEN` Bot token from @BotFather
 * `BOT_OWNER` Telegram Account Id of Owner.
-* `DATABASE_URI` Database uri from [MongoDB](https://mongodb.com) Watch [Video Tutorial](https://youtu.be/DAHRmFdw99o)
+* `DATABASE_URI` Database uri from [MongoDB](https://mongodb.com) 
 
-## Credits
-
-* <b>[Tech VJ](https://youtube.com/@Tech_VJ)</b>
